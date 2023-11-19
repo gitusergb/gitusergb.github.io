@@ -194,6 +194,7 @@ export const Bio = {
         "JavaScript",
       ],
       // doc: "#",
+      
     }
   ];
   
