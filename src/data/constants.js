@@ -228,7 +228,133 @@ export const Bio = {
   ];
   
   export const projects = [
-  
+    {
+      id: 1,
+      title: "Befit",
+      date: "Jun 2022 - Jul 2022",
+      description:
+        "Befit is clone website as Jefit which allows the users to easily manage and download routines,find desired exercises in exercise database made up of over 1300+ workouts and stretches, synchronize their device profiles with their online profiles removing the time to log into a website and getupdate ",
+      image:
+        "https://i.ibb.co/8sp2cgD/Befit.png",
+      tags: [
+        "HTML",
+        "CSS",
+        "JavaScript",
+      
+      ],
+      category: "web app ",
+      github: "https://github.com/gitusergb/Befit",
+      webapp: "https://befit-jefit.netlify.app/",
+    },
+    {
+      id: 2,
+      title: "BeCool",
+      date: "sep 2022",
+      description:
+        "BeCool.com is an E-Commerce website, where one could buy a varities of clothes of different category. This is the Clone of Bewakoof.com",
+      image:
+        "https://i.ibb.co/R0RPg2D/becool.png",
+      tags: ["Js", "HTML","css"],
+      category: "web app",
+      github: "https://github.com/gitusergb/becool",
+      webapp: "https://mellow-sidewalk-9952.vercel.app/",
+      member: [
+        {
+          name: "Gauri Bidwai",
+          img: "https://i.ibb.co/dQgFLHW/my-passport-photo.jpg",
+          linkedin: "https://www.linkedin.com/in/gauri-bidwai/",
+          github: "https://github.com/gitusergb",
+        },
+        {
+          name: "Rahul Singh Kushwah",
+          img: "https://avatars.githubusercontent.com/u/112858970?v=4",
+          linkedin: "https://www.linkedin.com/in/rahul-singh-kushwah-6a664b172/",
+          github: "https://github.com/Rahul1905-sk",
+        },
+      ],
+    },
+    {
+      id: 2,
+      title: "mymovieapp",
+      date: "",
+      description:
+        "Practice Movie app and clone of hotstar",
+      image:
+        "https://i.ibb.co/PCK0tx9/mymovieapp.png",
+      tags: [
+        "HTML",
+        "CSS",
+        "Js",
+      ],
+      category: "Small_web app",
+      github: "#",
+      webapp: "https://mymovieappauthentication.netlify.app/",
+    },
+    {
+      id: 3,
+      title: "MoneyMingle",
+      date: "June 2023 - June 2023",
+      description:
+        "MoneyMingle is a financial application that helps users quickly convert their Money to other currencies.",
+      image:
+        "https://i.ibb.co/nRY66tg/money-convertor.png",
+      tags: [ "HTML",
+      "CSS",
+      "JavaScript"],
+      category: "web app",
+      github: "https://github.com/gitusergb/mm",
+      webapp: "https://poetic-jalebi-91817f.netlify.app/",
+      member: [
+        {
+          name: "Gauri Bidwai",
+          img: "https://i.ibb.co/dQgFLHW/my-passport-photo.jpg",
+          linkedin: "https://www.linkedin.com/in/gauri-bidwai/",
+          github: "https://github.com/gitusergb",
+        },
+        {
+          name: "Tapish Agrawal",
+          img: "https://avatars.githubusercontent.com/u/110096013?v=4",
+          linkedin: "https://www.linkedin.com/in/tapish-agrawal/",
+          github: "https://github.com/Tapishagrawal",
+        },
+      ],
+    },
+    {
+      id: 1,
+      title: "Singing Digital Clock",
+      date: "",
+      description:
+        "Animated colored Singing Digital Clock",
+      image:
+        "https://i.ibb.co/8c2Dk2C/singing-clock.png",
+      tags: [
+        "HTML",
+        "CSS",
+        "Js",
+        "React"
+      ],
+      category: "Small_web app",
+      github: "https://github.com/gitusergb/AnImAtIonN_",
+      webapp: "https://singing-digital-clock.netlify.app/",
+    },
+    {
+      id: 3,
+      title: "Animated login page",
+      date: "",
+      description:
+        "Animated login page ",
+      image:
+        "https://i.ibb.co/HV2F05N/login-reducer-hook2.png",
+      tags: [
+        "HTML",
+        "CSS",
+        "Js",
+        "React"
+      ],
+      category: "Small_web app",
+      github: "https://github.com/gitusergb/AnImAtIonN_",
+      webapp: "https://prismatic-blini-e73b28.netlify.app/",
+    },
   ];
   
   export const TimeLineData = [
