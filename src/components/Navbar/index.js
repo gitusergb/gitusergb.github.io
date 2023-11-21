@@ -17,7 +17,7 @@ const Navbar = () => {
         <NavLogo to='/'>
           <a style={{ display: "flex", alignItems: "center", color: "white", marginBottom: '20;', cursor: 'pointer' }}>
           <ChevronLeftIcon style={{fontSize:"40",color:"#626970"}}/> 
-          <Span>Gauri</Span><Span style={{color:"#626970"}}>/</Span>
+          <Span>GB</Span><Span style={{color:"#626970"}}>/</Span>
           <ChevronRightIcon style={{fontSize:"40",marginLeft:"-8",color:"#626970"}}/>
           </a>
         </NavLogo>
@@ -26,7 +26,7 @@ const Navbar = () => {
             setIsOpen(!isOpen)
           }} />
         </MobileIcon>
-        <NavItems>
+        <NavItems id="nav-menu" >
           <NavLink href="#about">About</NavLink>
           <NavLink href='#skills'>Skills</NavLink>
           <NavLink href='#experience'>Experience</NavLink>

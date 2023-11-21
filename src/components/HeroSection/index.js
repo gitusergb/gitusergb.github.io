@@ -12,9 +12,9 @@ const HeroSection = () => {
                 <HeroBg>
                     <HeroBgAnimation />
                 </HeroBg>
-                <HeroInnerContainer >
+                <HeroInnerContainer id="user-detail-intro">
                     <HeroLeftContainer id="Left">
-                        <Title>Hi, I am <br /> {Bio.name}</Title>
+                        <Title id="user-detail-name">Hi, I am <br /> {Bio.name}</Title>
                         <TextLoop>
                             I am a
                             <Span>
@@ -32,7 +32,7 @@ const HeroSection = () => {
                     </HeroLeftContainer>
 
                     <HeroRightContainer id="Right">
-                        <Img src={HeroImg} alt="hero-image" />
+                        <Img className='home-img' src={HeroImg} alt="hero-image" />
                     </HeroRightContainer>
                 </HeroInnerContainer>
 

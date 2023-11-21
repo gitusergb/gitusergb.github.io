@@ -242,7 +242,7 @@ export const Bio = {
         "JavaScript",
       
       ],
-      category: "web app ",
+      category: "web app",
       github: "https://github.com/gitusergb/Befit",
       webapp: "https://befit-jefit.netlify.app/",
     },
@@ -342,7 +342,7 @@ export const Bio = {
       title: "Animated login page",
       date: "",
       description:
-        "Animated login page ",
+        "Animated login page",
       image:
         "https://i.ibb.co/HV2F05N/login-reducer-hook2.png",
       tags: [
