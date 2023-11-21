@@ -86,16 +86,16 @@ const Contact = () => {
             <p> Jatharpeth Road ,Akola</p>
            </div>
            </div>
-        <div className='phone'>
+        <div className='phone' id="contact-phone">
           <h4>
-          <FaPhone size={20} style={{color:"#34A853" ,marginRight:"2rem" }}/>+91 9518251358
+          <FaPhone id="contact" size={20} style={{color:"#34A853" ,marginRight:"2rem" }}/>+91 9518251358
           </h4>
         </div>
-        <div className='email'>
+        <div className='email' >
           <h4> <a onClick={()=>{
               window.open("mailto:g4ur131@gmail.com","blank")
             }} >
-          <EmailIcon size={20} style={{color:"#EA4335" ,marginRight:"2rem" ,}}/>g4ur131@gmail.com
+          <EmailIcon id="contact-email" size={20} style={{color:"#EA4335" ,marginRight:"2rem" ,}}/>g4ur131@gmail.com
           </a>
           </h4>
           </div>

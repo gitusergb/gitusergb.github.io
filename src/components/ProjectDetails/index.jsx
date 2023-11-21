@@ -198,8 +198,8 @@ const index = ({ openModal, setOpenModal }) => {
                         onClick={() => setOpenModal({ state: false, project: null })}
                     />
                     <Image src={project?.image} />
-                    <Title>{project?.title}</Title>
-                    <Date>{project.date}</Date>
+                    <Title className='project-title'>{project?.title}</Title>
+                    <Date >{project.date}</Date>
                     <Tags>
                         {project?.tags.map((tag) => (
                             <Tag>{tag}</Tag>

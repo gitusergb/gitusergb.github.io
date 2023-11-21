@@ -126,7 +126,7 @@ const Skills = () => {
         <Title>Skills</Title>
         <Desc>Here are some of my skills on which I have been working on for the past few years.
         </Desc>
-        <SkillsContainer>
+        <SkillsContainer className='skills-card'>
           {skills.map((skill) => (
             <Skill>
               <SkillTitle>{skill.title}</SkillTitle>
