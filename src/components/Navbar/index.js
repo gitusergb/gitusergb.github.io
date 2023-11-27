@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
-import { Nav, NavLink, NavbarContainer, Span, NavLogo, NavItems, GitHubButton, ButtonContainer, MobileIcon, MobileMenu, MobileNavLogo, MobileLink } from './NavbarStyledComponent'
+import { Nav, NavLink, NavbarContainer, Span, NavLogo, NavItems, GitHubButton, ButtonContainer, MobileIcon, MobileMenu, MobileNavLogo, MobileLink ,ResumeButton} from './NavbarStyledComponent'
 // import { DiCssdeck } from 'react-icons/di';
 import { ChevronLeftIcon, ChevronRightIcon } from '@chakra-ui/icons';
 import { FaBars } from 'react-icons/fa';
@@ -26,19 +26,34 @@ const Navbar = () => {
             setIsOpen(!isOpen)
           }} />
         </MobileIcon>
-        <NavItems id="nav-menu" >
-          <NavLink href="#about">About</NavLink>
-          <NavLink href='#skills'>Skills</NavLink>
-          <NavLink href='#experience'>Experience</NavLink>
-          <NavLink href='#projects'>Projects</NavLink>
-          <NavLink href='#education'>Education</NavLink>
+        <NavItems id="nav-menu" className='nav-link'>
+        <NavLink href="#home" className='home'>Home</NavLink>
+          <NavLink href="#about" className='about'>About</NavLink>
+          <NavLink href='#skills' className='skills'>Skills</NavLink>
+          <NavLink href='#experience' className='experience'>Experience</NavLink>
+          <NavLink href='#projects' className='projects'>Projects</NavLink>
+          <NavLink href='#education' className='education'>Education</NavLink>
         </NavItems>
         <ButtonContainer>
           <GitHubButton href={Bio.github} target="_blank">Github Profile</GitHubButton>
+          <ResumeButton 
+          id="resume-button-1"
+          onClick={()=>{
+            window.open(
+              "https://drive.google.com/file/d/1OKFTjY4RAb8Tv2T-Fmaxdx0Pf2_gbEOK/view?usp=sharing","blank"
+            )
+          }}
+           href={Bio.resume} 
+           target='display' 
+           download='Gauri-Bidwai-Resume' 
+           >Resume</ResumeButton>
         </ButtonContainer>
         {
           isOpen &&
           <MobileMenu isOpen={isOpen}>
+             <MobileLink href="#home" onClick={() => {
+              setIsOpen(!isOpen)
+            }}>Home</MobileLink>
             <MobileLink href="#about" onClick={() => {
               setIsOpen(!isOpen)
             }}>About</MobileLink>

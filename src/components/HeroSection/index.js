@@ -8,13 +8,13 @@ import { Bio } from '../../data/constants';
 const HeroSection = () => {
     return (
         <div id="about">
-            <HeroContainer>
+            <HeroContainer className='about'>
                 <HeroBg>
                     <HeroBgAnimation />
                 </HeroBg>
-                <HeroInnerContainer id="user-detail-intro">
+                <HeroInnerContainer id="user-detail-intro" className='section'>
                     <HeroLeftContainer id="Left">
-                        <Title id="user-detail-name">Hi, I am <br /> {Bio.name}</Title>
+                        <Title id="user-detail-name" >Hi, I am <br /> {Bio.name}</Title>
                         <TextLoop>
                             I am a
                             <Span>
