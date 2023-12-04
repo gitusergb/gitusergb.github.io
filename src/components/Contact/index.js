@@ -73,7 +73,7 @@ const ContactForm = styled.form`
 const Contact = () => {
 
   return (
-    <Container>
+    <Container className='contact'>
       <Wrapper>
         <Title>Contact</Title>
         <Desc>Feel free to reach out to me for any questions or suggetions!</Desc>
@@ -88,7 +88,7 @@ const Contact = () => {
            </div>
         <div className='phone' id="contact-phone">
           <h4>
-          <FaPhone id="contact" size={20} style={{color:"#34A853" ,marginRight:"2rem" }}/>+91 9518251358
+          <FaPhone id="contact" className="contact" size={20} style={{color:"#34A853" ,marginRight:"2rem" }}/>+91 9518251358
           </h4>
         </div>
         <div className='email' >

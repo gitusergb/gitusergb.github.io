@@ -186,7 +186,7 @@ const index = ({ openModal, setOpenModal }) => {
     const project = openModal?.project;
     return (
         <Modal open={true} onClose={() => setOpenModal({ state: false, project: null })}>
-            <Container>
+            <Container className='projects'>
                 <Wrapper>
                     <CloseRounded
                         style={{
