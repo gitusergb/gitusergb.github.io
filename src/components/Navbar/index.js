@@ -27,13 +27,13 @@ const Navbar = () => {
           }} />
         </MobileIcon>
         <NavItems id="nav-menu" className='nav-link'>
-        <NavLink href="#home" className='home'>Home</NavLink>
-          <NavLink href="#about" className='about'>About</NavLink>
-          <NavLink href='#skills' className='skills'>Skills</NavLink>
-          <NavLink href='#experience' className='experience'>Experience</NavLink>
-          <NavLink href='#projects' className='projects'>Projects</NavLink>
+        <NavLink href="#home" className='nav-link home'>Home</NavLink>
+          <NavLink href="#about" className='nav-link about'>About</NavLink>
+          <NavLink href='#skills' className='nav-link skills'>Skills</NavLink>
+          <NavLink href='#experience' className='nav-link experience'>Experience</NavLink>
+          <NavLink href='#projects' className='nav-link projects'>Projects</NavLink>
           {/* <NavLink href='#education' className='education'>Education</NavLink> */}
-          <NavLink href='#contact' className='contact'>Contact</NavLink> 
+          <NavLink href='#contact' className='nav-link contact'>Contact</NavLink> 
         </NavItems>
         <ButtonContainer>
           <GitHubButton href={Bio.github} target="_blank">Github Profile</GitHubButton>
