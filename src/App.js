@@ -11,7 +11,7 @@ import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Experience from "./components/Experience";
-import Education from "./components/Education";
+// import Education from "./components/Education";
 import  Github  from "./components/Cards/Github.jsx";
 import ProjectDetails from "./components/ProjectDetails";
 import styled from "styled-components";
@@ -43,7 +43,7 @@ function App() {
           </Wrapper>
           <Projects openModal={openModal} setOpenModal={setOpenModal} />
           <Wrapper>
-            <Education />
+            {/* <Education /> */}
             <Github/>
             <Contact />
           </Wrapper>
