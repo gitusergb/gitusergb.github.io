@@ -93,7 +93,7 @@ const Contact = () => {
         </div>
         <div className='email' >
           <h4> <a onClick={()=>{
-              window.open("mailto:g4ur131@gmail.com","blank")
+              window.open("mailto:g4ur131@gmail.com","_blank")
             }} >
           <EmailIcon id="contact-email" size={20} style={{color:"#EA4335" ,marginRight:"2rem" ,}}/>g4ur131@gmail.com
           </a>

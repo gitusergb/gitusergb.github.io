@@ -8,6 +8,7 @@ import { Bio } from '../../data/constants';
 // import { Close, CloseRounded } from '@mui/icons-material';
 import { useTheme } from 'styled-components';
 
+
 const Navbar = () => {
   const [isOpen, setIsOpen] = React.useState(false);
   const theme = useTheme()
@@ -17,7 +18,7 @@ const Navbar = () => {
         <NavLogo to='/'>
           <a style={{ display: "flex", alignItems: "center", color: "white", marginBottom: '20;', cursor: 'pointer' }}>
           <ChevronLeftIcon style={{fontSize:"40",color:"#626970"}}/> 
-          <Span>GB</Span><Span style={{color:"#626970"}}>/</Span>
+          <Span><img src='https://i.ibb.co/9Yx78x8/logo.png' alt='GB' style={{height:"30px",width:"40px"}}/> </Span><Span style={{color:"#626970"}}>/</Span>
           <ChevronRightIcon style={{fontSize:"40",marginLeft:"-8",color:"#626970"}}/>
           </a>
         </NavLogo>
@@ -42,13 +43,13 @@ const Navbar = () => {
           className='nav-link resume'
           onClick={()=>{
             window.open(
-              "https://drive.google.com/file/d/1ADoJMfMu5scn5HeR3ibtt-zheBmX_DhM/view?usp=sharing","_blank"
+              `${Bio.resume}`,"_blank"
             )
           }}
-           href={Bio.resume} 
-           target='_blank' 
-           download='Gauri-Bidwai-Resume' 
-           >Resume</ResumeButton>
+          //  href={Bio.resume}
+          //  download='Gauri-Bidwai-Resume' 
+             href="./Gauri-Bidwai-Resume.pdf"
+           download='Gauri-Bidwai-Resume' > Resume</ResumeButton>
         </ButtonContainer>
         {
           isOpen &&

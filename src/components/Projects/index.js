@@ -32,13 +32,13 @@ const Projects = ({openModal,setOpenModal}) => {
             :
             <ToggleButton value="Small_web app" onClick={() => setToggle('Small_web app')}>Small web APP'S</ToggleButton>
           }
-           <Divider />
+           {/* <Divider />
            {toggle === 'Research' ?
             <ToggleButton active value="Research" onClick={() => setToggle('Research')}>Research papers</ToggleButton>
             :
             <ToggleButton value="Research" onClick={() => setToggle('Research')}>Research papers</ToggleButton>
           }
-      
+       */}
         </ToggleButtonGroup>
         <CardContainer>
           {toggle === 'all' && projects

@@ -30,7 +30,7 @@ const Card = styled.div`
     transition: all 0.5s ease-in-out;
     &:hover {
         transform: translateY(-10px);
-        box-shadow: 0 0 50px 4px rgba(0,0,0,0.6);
+        box-shadow: 0 0 50px 4px #306ee8;
         filter: brightness(1.1);
     }
     &:hover ${Button} {
@@ -74,7 +74,7 @@ const Details = styled.div`
 const Title = styled.div`
     font-size: 20px;
     font-weight: 600;
-    color: ${({ theme }) => theme.text_secondary};
+    color: white;
     overflow: hidden;
     display: -webkit-box;
     max-width: 100%;

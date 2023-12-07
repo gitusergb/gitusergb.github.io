@@ -8,11 +8,12 @@ export const Bio = {
     ],
     description:"I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
     github: "https://github.com/gitusergb",
-    resume:"./Gauri-Bidwai-Resume.pdf",
+    resume:"https://drive.google.com/file/d/1ADoJMfMu5scn5HeR3ibtt-zheBmX_DhM/view?usp=sharing",
     linkedin: "https://www.linkedin.com/in/gauri-bidwai/",
     twitter: "#",
     insta: "https://www.instagram.com/b_gauri_13/",
     facebook: "#",
+    email:"gauribidwai94@gmail.com"
   };
   
   export const skills = [
