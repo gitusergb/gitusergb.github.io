@@ -8,7 +8,7 @@ import { Bio } from '../../data/constants';
 const HeroSection = () => {
     return (
         <div id="about">
-            <HeroContainer className='about'>
+            <HeroContainer id="home" className='home'>
                 <HeroBg>
                     <HeroBgAnimation />
                 </HeroBg>
@@ -27,7 +27,7 @@ const HeroSection = () => {
                                 />
                             </Span>
                         </TextLoop>
-                        <SubTitle>{Bio.description}</SubTitle>
+                        <SubTitle id="about" className='about section'>{Bio.description}</SubTitle>
                         <ResumeButton id="resume-button-2" href={Bio.resume} target='display'>Resume</ResumeButton>
                     </HeroLeftContainer>
 

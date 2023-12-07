@@ -39,13 +39,14 @@ const Navbar = () => {
           <GitHubButton href={Bio.github} target="_blank">Github Profile</GitHubButton>
           <ResumeButton 
           id="resume-button-1"
+          className='nav-link resume'
           onClick={()=>{
             window.open(
-              "https://drive.google.com/file/d/1OKFTjY4RAb8Tv2T-Fmaxdx0Pf2_gbEOK/view?usp=sharing","blank"
+              "https://drive.google.com/file/d/1ADoJMfMu5scn5HeR3ibtt-zheBmX_DhM/view?usp=sharing","_blank"
             )
           }}
            href={Bio.resume} 
-           target='display' 
+           target='_blank' 
            download='Gauri-Bidwai-Resume' 
            >Resume</ResumeButton>
         </ButtonContainer>

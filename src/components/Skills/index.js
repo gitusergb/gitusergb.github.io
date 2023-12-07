@@ -129,7 +129,7 @@ const Skills = () => {
         <SkillsContainer className='skills-card'>
           {skills.map((skill) => (
             <Skill>
-              <SkillTitle>{skill.title}</SkillTitle>
+              <SkillTitle className='skills-card-name'>{skill.title}</SkillTitle>
               <SkillList>
                 {skill.skills.map((item) => (
                   <SkillItem >
