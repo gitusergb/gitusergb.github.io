@@ -7,6 +7,7 @@ import { FaBars } from 'react-icons/fa';
 import { Bio } from '../../data/constants';
 // import { Close, CloseRounded } from '@mui/icons-material';
 import { useTheme } from 'styled-components';
+import resume from './Gauri-Bidwai-Resume.pdf';
 
 
 const Navbar = () => {
@@ -48,7 +49,7 @@ const Navbar = () => {
           }}
           //  href={Bio.resume}
           //  download='Gauri-Bidwai-Resume' 
-             href="./Gauri-Bidwai-Resume.pdf"
+             href={resume}
            download='Gauri-Bidwai-Resume' > Resume</ResumeButton>
         </ButtonContainer>
         {
