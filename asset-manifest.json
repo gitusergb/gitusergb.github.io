@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.bf538fe7.css",
-    "main.js": "/static/js/main.2b5c27a4.js",
+    "main.js": "/static/js/main.cbc1d072.js",
     "static/media/mi3.png": "/static/media/mi3.18a13168a147d8e1abb1.png",
-    "static/media/Gauri-Bidwai-Resume.pdf": "/static/media/Gauri-Bidwai-Resume.6960de39bc24d1fa3237.pdf",
+    "static/media/Gauri-Bidwai-Resume.pdf": "/static/media/Gauri-Bidwai-Resume.98a06e8b8ad0ac3edb89.pdf",
     "index.html": "/index.html",
     "main.bf538fe7.css.map": "/static/css/main.bf538fe7.css.map",
-    "main.2b5c27a4.js.map": "/static/js/main.2b5c27a4.js.map"
+    "main.cbc1d072.js.map": "/static/js/main.cbc1d072.js.map"
   },
   "entrypoints": [
     "static/css/main.bf538fe7.css",
-    "static/js/main.2b5c27a4.js"
+    "static/js/main.cbc1d072.js"
   ]
 }
