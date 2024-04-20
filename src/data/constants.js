@@ -8,7 +8,7 @@ export const Bio = {
     ],
     description:"I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
     github: "https://github.com/gitusergb",
-    resume:"https://drive.google.com/file/d/1ADoJMfMu5scn5HeR3ibtt-zheBmX_DhM/view?usp=sharing",
+    resume:"https://drive.google.com/file/d/1OyTBLOJ_T7B-1pRjO56N1peoLGxQean7/view?usp=sharing",
     linkedin: "https://www.linkedin.com/in/gauri-bidwai/",
     twitter: "#",
     insta: "https://www.instagram.com/b_gauri_13/",
@@ -85,31 +85,31 @@ export const Bio = {
         // },
       ],
     },
-    {
-      title: "Android",
-      skills: [
-        {
-          name: "Java",
-          image:
-            "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
-        },
-        {
-          name: "Kotlin",
-          image:
-            "https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg",
-        },
-        {
-          name: "XML",
-          image:
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBMw6_RdwKQ9bDFfnKDX1iwMl4bVJEvd9PP53XuIw&s",
-        },
-        {
-          name: "Android Studio",
-          image:
-            "https://developer.android.com/static/studio/images/new-studio-logo-1_1920.png",
-        },
-      ],
-    },
+    // {
+    //   title: "Android",
+    //   skills: [
+    //     {
+    //       name: "Java",
+    //       image:
+    //         "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
+    //     },
+    //     {
+    //       name: "Kotlin",
+    //       image:
+    //         "https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg",
+    //     },
+    //     {
+    //       name: "XML",
+    //       image:
+    //         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBMw6_RdwKQ9bDFfnKDX1iwMl4bVJEvd9PP53XuIw&s",
+    //     },
+    //     {
+    //       name: "Android Studio",
+    //       image:
+    //         "https://developer.android.com/static/studio/images/new-studio-logo-1_1920.png",
+    //     },
+    //   ],
+    // },
     {
       title: "Others",
       skills: [
@@ -365,6 +365,66 @@ export const Bio = {
       github: "https://github.com/gitusergb/AnImAtIonN_",
       webapp: "https://prismatic-blini-e73b28.netlify.app/",
     },
+    {
+      id: 4,
+      title: "Image Creator :ICre",
+      date: "29-Jan",
+      description:
+        "To generate images from that exactly text user providing ,I have tried to create this Image Creator :ICre",
+      image:
+        "https://i.ibb.co/6tY8Jhy/scr2.png",
+      tags: [
+        "Node",
+        "Express",
+        "MongoDB",
+        "React",
+        "Tailwind",
+        "DALL-E",
+        "Cloudinary"
+      ],
+      category: "Small_web app",
+      github: "https://github.com/gitusergb/ICre_AI",
+      webapp: "https://lighthearted-dieffenbachia-6a1619.netlify.app/",
+    },
+    {
+      id: 5,
+      title: "My_Notes_ APP",
+      date: "20-Apr",
+      description:
+        "A Basic app created using react,after logged in you can create,update and delete your notes.",
+      image:
+        "https://i.ibb.co/9ZShZ3Z/my-notes-app.png",
+      tags: [
+        "Node",
+        "Express",
+        "MongoDB",
+        "React",
+        "JavaScript",
+      ],
+      category: "Small_web app",
+      github: "https://github.com/gitusergb/My_Notes_WebApp",
+      webapp: "https://timely-tarsier-0595a2.netlify.app/",
+    },
+    {
+      id: 6,
+      title: "My_YouTube",
+      date: "9-March",
+      description:
+        "YouTube, built using React JS and Material UI.",
+      image:
+        "https://i.ibb.co/xjFnz5d/movies.png",
+      tags: [
+        "Node",
+        "Express",
+        "RapidAPI",
+        "React",
+        "JavaScript",
+      ],
+      category: "Small_web app",
+      github: "https://github.com/gitusergb/MyYouTube",
+      webapp: "https://roaring-nasturtium-35c702.netlify.app/",
+    },
+
   ];
   
   export const TimeLineData = [
