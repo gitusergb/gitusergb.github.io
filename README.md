@@ -2,13 +2,22 @@
 Welcome to my portfolio! This project showcases my skills, projects, and experiences as a web developer.
 
 ### Weblink: [Live Website](https://gitusergb.github.io/)
+
 ## Some Images:
-<img width="450px;" src="https://i.ibb.co/WxQs6L0/p1.png"/>
+![Home](https://i.ibb.co/WxQs6L0/p1.png)
+![Skills](https://i.ibb.co/f9ckmK3/p2.png)
+![Experience](https://i.ibb.co/TB3zHW1/p3.png)
+![Projects](https://i.ibb.co/Pg284V1/p4.png)
+![GitHub stats](https://i.ibb.co/QncwdhZ/p5.png)
+![Contact](https://i.ibb.co/yPwDTKc/p6.png)
+
+
+<!-- <img width="450px;" src="https://i.ibb.co/WxQs6L0/p1.png"/>
 <img width="450px;" src="https://i.ibb.co/f9ckmK3/p2.png"/>
 <img width="450px;" src="https://i.ibb.co/TB3zHW1/p3.png"/>
 <img width="450px;" src="https://i.ibb.co/Pg284V1/p4.png"/>
 <img width="450px;" src="https://i.ibb.co/QncwdhZ/p5.png"/>
-<img width="450px;" src="https://i.ibb.co/yPwDTKc/p6.png"/>
+<img width="450px;" src="https://i.ibb.co/yPwDTKc/p6.png"/> -->
 
 
 ## Table of Contents
