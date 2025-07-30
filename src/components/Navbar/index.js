@@ -7,7 +7,7 @@ import { FaBars } from 'react-icons/fa';
 import { Bio } from '../../data/constants';
 // import { Close, CloseRounded } from '@mui/icons-material';
 import { useTheme } from 'styled-components';
-import resume from './Gauri-Bidwai-Resume.pdf';
+import resume from './GauriBidwai_Resume.pdf';
 
 
 const Navbar = () => {

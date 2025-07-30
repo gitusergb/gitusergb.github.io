@@ -318,7 +318,7 @@ export const Bio = {
       tags: ["Js", "HTML","css"],
       category: "web app",
       github: "https://github.com/gitusergb/becool",
-      webapp: "https://mellow-sidewalk-9952.vercel.app/",
+      webapp: "https://resilient-entremet-1e5aa0.netlify.app/",
       member: [
         {
           name: "Gauri Bidwai",
