@@ -28,7 +28,11 @@ const HeroSection = () => {
                             </Span>
                         </TextLoop>
                       
-                      
+                        <div>
+                <SubTitle id="about" className='about section'>About : {Bio.description}</SubTitle>
+                        <ResumeButton id="resume-button-2" href={Bio.resume} target='_blank'>Resume</ResumeButton>
+
+                    </div>
                         
                     </HeroLeftContainer>
 
@@ -36,11 +40,7 @@ const HeroSection = () => {
                         <Img className='home-img' src={HeroImg} alt="hero-image" />
                     </HeroRightContainer>
                 </HeroInnerContainer>
-                <div>
-                <SubTitle id="about" className='about section'>About : {Bio.description}</SubTitle>
-                        <ResumeButton id="resume-button-2" href={Bio.resume} target='_blank'>Resume</ResumeButton>
-
-                    </div>
+               
 
             </HeroContainer>
         </div>
