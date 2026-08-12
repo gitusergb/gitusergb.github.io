@@ -50,7 +50,7 @@ const Navbar = () => {
           //  href={Bio.resume}
           //  download='Gauri-Bidwai-Resume' 
              href={resume}
-           download='GauriBidwai_Resume' > Resume</ResumeButton>
+           download='GAURIBIDWAI_Resume' > Resume</ResumeButton>
         </ButtonContainer>
         {
           isOpen &&
