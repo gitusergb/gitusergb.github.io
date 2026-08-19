@@ -101,6 +101,7 @@ export const Bio = {
           name: "Express Js",
           image:
             "https://i.ibb.co/1JMtLXHN/download.png",
+            
         },
         {
           name: "MySQL",
