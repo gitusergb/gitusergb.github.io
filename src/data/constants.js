@@ -8,7 +8,7 @@ export const Bio = {
     description:"I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
     github: "https://github.com/gitusergb",
     // resume:"https://drive.google.com/file/d/1ndzUWyL_pZ_7b4zT2KqhuRHk0f1HAouW/view",
-    resume:"https://drive.google.com/file/d/1ivMBfA5BFkVx1434XjgjJofvFSptU1PV/view?usp=drive_link",
+    resume:"https://drive.google.com/file/d/1ivMBfA5BFkVx1434XjgjJofvFSptU1PV/view",
     linkedin: "https://www.linkedin.com/in/gauri-bidwai/",
     twitter: "#",
     insta: "https://www.instagram.com/b_gauri_13/",
@@ -223,6 +223,22 @@ export const Bio = {
     {
       id: 0,
       img: "https://i.ibb.co/dwjcXsYF/Warp-Drive-Logo-01-edited.jpg",
+      role: "SDE1",
+      company: "MediaNV",
+      date: "2026",
+      desc: "Developed NestJS-based backend features for Form and Scraper modules, including PDF/image uploads and RESTful APIs for admin and customer portals.",
+      skills: [
+        "React",
+        "Next",
+        "nestjs"
+        "Node.js"
+      ],
+      // doc: "#",
+      
+    },
+    {
+      id: 1,
+      img: "https://i.ibb.co/dwjcXsYF/Warp-Drive-Logo-01-edited.jpg",
       role: "Technical Specialist",
       company: "WarpDrive Tech Works, Bangalore, India",
       date: "2025",
@@ -240,7 +256,7 @@ export const Bio = {
       
     },
     {
-      id: 1,
+      id: 2,
       img: "https://www.maestrointellect.com/assets/images/Mlogo.png",
       role: "Trainee Software Developer",
       company: "Maestro Intellect,Pune,India",
