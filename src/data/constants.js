@@ -231,7 +231,8 @@ export const Bio = {
       skills: [
         "React",
         "Next",
-        "nestjs"
+        "nestjs",
+        
         "Node.js"
       ],
       // doc: "#",
