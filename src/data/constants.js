@@ -223,7 +223,7 @@ export const Bio = {
   export const experiences = [
     {
       id: 0,
-      img: "https://i.ibb.co/dwjcXsYF/Warp-Drive-Logo-01-edited.jpg",
+      img: "https://www.medianv.com/wp-content/uploads/2023/03/logo.png.webp",
       role: "SDE1",
       company: "MediaNV",
       date: "2026",
@@ -232,7 +232,6 @@ export const Bio = {
         "React",
         "Next",
         "nestjs",
-        
         "Node.js"
       ],
       // doc: "#",
