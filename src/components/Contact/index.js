@@ -82,7 +82,7 @@ const Contact = () => {
        
             <FaHome size={20} style={{color:"#4285F4" ,marginRight:"2rem"}}/>          
            <div>
-            <p> Near Gore Wadi,</p>
+            <p> Opposite SVC Bank,</p>
             <p> Jatharpeth Road ,Akola</p>
            </div>
            </div>

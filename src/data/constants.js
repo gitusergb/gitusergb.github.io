@@ -4,6 +4,7 @@ export const Bio = {
       "Full Stack Developer",
       "MERN Stack Developer",
       "Programmer",
+      "Academic Mentor"
     ],
     description:"I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
     github: "https://github.com/gitusergb",
@@ -223,6 +224,20 @@ export const Bio = {
   export const experiences = [
     {
       id: 0,
+      img: "https://colleges18.s3.ap-south-1.amazonaws.com/Lovely_Professional_University_04_37bc70298e.png",
+      role: "Academic Mentor",
+      company: "Lovely Professional University, Phagwara, Punjab",
+      date: "2026",
+      desc: "working as an Academic Mentor at Lovely Professional University, guiding students in their academic journey and providing support in various subjects.",
+      skills: [
+        "React",
+        "Next js"
+      ],
+      // doc: "#",
+      
+    },
+    {
+      id: 1,
       img: "https://www.medianv.com/wp-content/uploads/2023/03/logo.png.webp",
       role: "SDE1",
       company: "MediaNV",
@@ -230,7 +245,7 @@ export const Bio = {
       desc: "Developed NestJS-based backend features for Form and Scraper modules, including PDF/image uploads and RESTful APIs for admin and customer portals.",
       skills: [
         "React",
-        "Next",
+        "Next js",
         "nestjs",
         "Node.js"
       ],
@@ -238,7 +253,7 @@ export const Bio = {
       
     },
     {
-      id: 1,
+      id: 2,
       img: "https://i.ibb.co/dwjcXsYF/Warp-Drive-Logo-01-edited.jpg",
       role: "Technical Specialist",
       company: "WarpDrive Tech Works, Bangalore, India",
@@ -257,7 +272,7 @@ export const Bio = {
       
     },
     {
-      id: 2,
+      id: 3,
       img: "https://www.maestrointellect.com/assets/images/Mlogo.png",
       role: "Trainee Software Developer",
       company: "Maestro Intellect,Pune,India",
